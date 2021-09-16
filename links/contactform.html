@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Contact Information</h1>
+    <form>
+        <input type="text" name="firstname" style="width: 700px;"><br>
+        <b>First name:</b><br>
+  <input type="text" name="lastname" style="width: 700px;"><br>
+  <b>Last name:</b><br>
+  <!-- <input type="text" name="lastname">
+  Last name:<br> -->
+
+  <p>
+  <b>Telephone:</b>
+  <input type="tel" name="usrtel" >
+  </p>
+
+  
+      <p><b>gender</b><br>
+  <input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other
+      </p>
+  
+
+  <p>
+    <!-- <input type="text" name="age range"><br> -->
+    <b>Age range</b><br>
+  <select name="age range">
+    <option value="Below 18">Below 18</option>
+    <option value="18-25">18-25</option>
+    <option value="26-35">26-35</option>
+    <option value="Above 35">Above 35</option>
+  </select>
+</p>
+
+<section id="one">
+  <p>
+    <!-- <input type="text" name="Country"><br> -->
+    <b>Country</b><br>
+  <form  action="action_page.php">
+    <input list="Nigeria">
+    <datalist id="Ghana">
+      <option value="Arabia">
+      <option value="Niger">
+      <option value="Cameroun">
+      <option value="India">
+      <option value="Mexico">
+    </datalist>
+    </form>
+</p>
+    
+    <!-- <input type="text" name="terms and conditions"><br> -->
+  <p><b>Do you agree to the Terms and Conditions?</b><br>
+    <input type="checkbox" name="vehicle1" value="Bike"> I agree<br>
+  <input type="checkbox" name="vehicle2" value="Car"> I do not agree
+  </p>
+</section>
+
+<section id="two">
+    <textarea name="message" rows="10" cols="30" 
+    placeholder="comment" style="width: 500px; height: 350px;"></textarea> 
+    <p>
+    <input type="submit" value="Submit">
+    </p>
+</section>
+    
+
+
+    </body>
+</body>
+</html>
